@@ -36,7 +36,9 @@ def turn(board)
 end
 
 def play(board)
-  turn(board)
-  while position_taken?(board,input)
+  turn = 0
+  while turn >9
+    turn(board)
+    turn+=1
   end
 end

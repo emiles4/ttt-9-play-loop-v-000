@@ -36,3 +36,8 @@ def turn(board)
 end
 
 # Define your play method below
+def play(board, user_input)
+  turn(board)
+  while !position_taken?
+  end
+end

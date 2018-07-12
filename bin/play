@@ -11,4 +11,3 @@ display_board(board)
 def play(board)
   turn while position_taken? == true
   end
-end

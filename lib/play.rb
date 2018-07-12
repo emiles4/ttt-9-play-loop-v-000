@@ -38,6 +38,6 @@ end
 # Define your play method below
 def play(board)
   turn(board)
-  while !position_taken?(board,location)
+  while !position_taken?(board)
   end
 end

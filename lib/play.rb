@@ -38,4 +38,5 @@ end
 def play(board)
   turn(board)
   while position_taken?(board,input)
+  end
 end
